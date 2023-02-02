@@ -11,6 +11,10 @@
 		0848223E298BB1010047EEA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848223D298BB1010047EEA6 /* ContentView.swift */; };
 		08482240298BB1050047EEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0848223F298BB1050047EEA6 /* Assets.xcassets */; };
 		08482243298BB1050047EEA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08482242298BB1050047EEA6 /* Preview Assets.xcassets */; };
+		0848224C298BB1AA0047EEA6 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848224B298BB1AA0047EEA6 /* Activity.swift */; };
+		0848224E298BB1ED0047EEA6 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848224D298BB1ED0047EEA6 /* Connection.swift */; };
+		08482250298BB30A0047EEA6 /* AddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848224F298BB30A0047EEA6 /* AddActivity.swift */; };
+		08482252298BB63C0047EEA6 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08482251298BB63C0047EEA6 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0848223D298BB1010047EEA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0848223F298BB1050047EEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08482242298BB1050047EEA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0848224B298BB1AA0047EEA6 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		0848224D298BB1ED0047EEA6 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		0848224F298BB30A0047EEA6 /* AddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivity.swift; sourceTree = "<group>"; };
+		08482251298BB63C0047EEA6 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		0848223A298BB1010047EEA6 /* Todolist Train */ = {
 			isa = PBXGroup;
 			children = (
+				0848224A298BB12A0047EEA6 /* View */,
+				08482249298BB1240047EEA6 /* Model */,
 				0848223B298BB1010047EEA6 /* Todolist_TrainApp.swift */,
 				0848223D298BB1010047EEA6 /* ContentView.swift */,
 				0848223F298BB1050047EEA6 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				08482242298BB1050047EEA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08482249298BB1240047EEA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0848224B298BB1AA0047EEA6 /* Activity.swift */,
+				0848224D298BB1ED0047EEA6 /* Connection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0848224A298BB12A0047EEA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0848224F298BB30A0047EEA6 /* AddActivity.swift */,
+				08482251298BB63C0047EEA6 /* ActivityView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0848224C298BB1AA0047EEA6 /* Activity.swift in Sources */,
 				0848223E298BB1010047EEA6 /* ContentView.swift in Sources */,
+				08482250298BB30A0047EEA6 /* AddActivity.swift in Sources */,
 				0848223C298BB1010047EEA6 /* Todolist_TrainApp.swift in Sources */,
+				0848224E298BB1ED0047EEA6 /* Connection.swift in Sources */,
+				08482252298BB63C0047EEA6 /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
